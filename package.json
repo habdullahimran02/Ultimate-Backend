@@ -2,14 +2,13 @@
   "name": "ultimate-backend",
   "version": "1.0.0",
   "description": "backend project",
-  "type":"module",
+  "type": "commonjs",
   "keywords": [
     "js",
     "backend"
   ],
   "license": "ISC",
   "author": "me",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
@@ -17,5 +16,8 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "prettier": "^3.8.1"
   }
 }
