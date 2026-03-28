@@ -2,6 +2,7 @@
   "name": "ultimate-backend",
   "version": "1.0.0",
   "description": "backend project",
+  "type":"module",
   "keywords": [
     "js",
     "backend"
@@ -11,6 +12,10 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js",
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
