@@ -1,0 +1,1 @@
+export const DB_NAME = "ultimate_backend";
